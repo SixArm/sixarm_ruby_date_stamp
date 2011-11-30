@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
 
   s.name              = "sixarm_ruby_date_stamp"
   s.summary           = "SixArm.com » Ruby » Date.stamp method for RFC ISO date stamp"
-  s.version           = "1.0.0"
+  s.version           = "1.0.1"
   s.author            = "SixArm"
   s.email             = "sixarm@sixarm.com"
   s.homepage          = "http://sixarm.com/"

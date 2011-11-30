@@ -3,6 +3,7 @@
 Please see README.rdoc
 =end
 
+require 'date'
 
 class Date
 
@@ -18,7 +19,7 @@ class Date
   #   => "2010-12-31" 
 
   def stamp
-    strfdate('%Y-%m-%d %H:%M:%SZ')
+    strftime('%Y-%m-%d')
   end
 
 
