@@ -1,1 +1,0 @@
-2bb35fb31372a7930faf3de1dbe47c57c27bcc2685dff2e2517c72355ca2c527f2478de8cfbceca9ca5e1c4637dffc710462b7bed8942b7b90fa654777a168b8  sixarm_ruby_date_stamp-1.0.1.gem

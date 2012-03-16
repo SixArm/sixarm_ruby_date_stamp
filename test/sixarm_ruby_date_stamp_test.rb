@@ -4,17 +4,19 @@ require 'simplecov'
 SimpleCov.start
 require 'sixarm_ruby_date_stamp'
 
-class DateTest < Test::Unit::TestCase
+describe Date do
 
- def test_stamp_with_class_method
-   d=Date.stamp
-   assert(d=~/^\d\d\d\d-\d\d-\d\d$/,d)
- end
+ describe "#stamp" do
 
- def test_stamp_with_instance_method
-   d=Date.today.stamp
-   assert(d=~/^\d\d\d\d-\d\d-\d\d$/,d)
- end
- 
+  it "with class method" do
+    Date.stamp.must_match /^\d\d\d\d-\d\d-\d\d$/
+  end
+
+  it "with_instance_method" do
+    Date.today.stamp.must_match /^\d\d\d\d-\d\d-\d\d$/
+  end
+    
+  end
+
 end
 
