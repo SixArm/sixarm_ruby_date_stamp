@@ -1,6 +1,7 @@
 # SixArm.com » Ruby » <br> Date.stamp method for ISO RFC date stamp
 
-* Docs: <http://sixarm.com/sixarm_ruby_date_stamp/doc>
+* Doc: <http://sixarm.com/sixarm_ruby_date_stamp/doc>
+* Gem: <http://rubygems.org/gems/sixarm_ruby_date_stamp>
 * Repo: <http://github.com/sixarm/sixarm_ruby_date_stamp>
 * Email: Joel Parker Henderson, <joel@sixarm.com>
 
