@@ -1,4 +1,4 @@
-# SixArm.com » Ruby » <br> Date.stamp method for ISO RFC date stamp
+# Ruby » <br> Date.stamp method for ISO RFC date stamp
 
 [![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_date_stamp.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_date_stamp)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_date_stamp.png)](https://travis-ci.org/SixArm/sixarm_ruby_date_stamp)
