@@ -1,4 +1,4 @@
-# Ruby » <br> Date.stamp method for ISO RFC date stamp
+SixArm.com → Ruby → <br> Date.stamp method for ISO RFC date stamp
 
 <!--HEADER-OPEN-->
 
