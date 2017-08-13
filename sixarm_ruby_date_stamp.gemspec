@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
 
   s.name              = "sixarm_ruby_date_stamp"
-  s.summary           = "SixArm.com » Ruby » Date.stamp"
+  s.summary           = "SixArm.com → Ruby → Date.stamp"
   s.description       = "Date.stamp method for RFC ISO date stamp"
   s.version           = "1.1.1"
 
