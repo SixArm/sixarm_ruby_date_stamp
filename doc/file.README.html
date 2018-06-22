@@ -1,23 +1,24 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>
   File: README
   
-    &mdash; Documentation by YARD 0.7.5
+    &mdash; Documentation by YARD 0.9.14
   
 </title>
 
-  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />
 
-  <link rel="stylesheet" href="css/common.css" type="text/css" media="screen" charset="utf-8" />
+  <link rel="stylesheet" href="css/common.css" type="text/css" charset="utf-8" />
 
 <script type="text/javascript" charset="utf-8">
+  pathId = "README";
   relpath = '';
-  if (relpath != '') relpath += '/';
 </script>
+
 
   <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
 
@@ -26,41 +27,53 @@
 
   </head>
   <body>
-    <script type="text/javascript" charset="utf-8">
-      if (window.top.frames.main) document.body.className = 'frames';
-    </script>
-    
-    <div id="header">
-      <div id="menu">
+    <div class="nav_wrap">
+      <iframe id="nav" src="file_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
   
-    <a href="_index.html" title="Index">Index</a> &raquo; 
+    <a href="_index.html">Index</a> &raquo; 
     <span class="title">File: README</span>
   
-  
-  <div class="noframes"><span class="title">(</span><a href="." target="_top">no frames</a><span class="title">)</span></div>
 </div>
 
-      <div id="search">
+        <div id="search">
   
-    <a id="class_list_link" href="#">Class List</a>
-  
-    <a id="method_list_link" href="#">Method List</a>
-  
-    <a id="file_list_link" href="#">File List</a>
+    <a class="full_list_link" id="class_list_link"
+        href="class_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
   
 </div>
-      <div class="clear"></div>
-    </div>
-    
-    <iframe id="search_frame"></iframe>
-    
-    <div id="content"><div id='filecontents'><h1>SixArm.com » Ruby » <br> Date.stamp method for ISO RFC date stamp</h1>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><div id='filecontents'><h1>SixArm.com → Ruby → <br> Date.stamp method for ISO RFC date stamp</h1>
+
+<!--header-open-->
+
+<p><a href="http://badge.fury.io/rb/sixarm_ruby_date_stamp"><img src="https://badge.fury.io/rb/sixarm_ruby_date_stamp.svg" alt="Gem Version"></a>
+<a href="https://travis-ci.org/SixArm/sixarm_ruby_date_stamp"><img src="https://travis-ci.org/SixArm/sixarm_ruby_date_stamp.png" alt="Build Status"></a>
+<a href="https://codeclimate.com/github/SixArm/sixarm_ruby_date_stamp/maintainability"><img src="https://api.codeclimate.com/v1/badges/efb60a9ecbf7e3450cd3/maintainability" alt="Code Climate Maintainability"></a></p>
 
 <ul>
-<li>Docs: <a href="http://sixarm.com/sixarm_ruby_date_stamp/doc">http://sixarm.com/sixarm_ruby_date_stamp/doc</a></li>
-<li>Repo: <a href="http://github.com/sixarm/sixarm_ruby_date_stamp">http://github.com/sixarm/sixarm_ruby_date_stamp</a></li>
-<li>Email: Joel Parker Henderson, <a href="mailto:joel@sixarm.com">joel@sixarm.com</a></li>
+<li>Git: <a href="https://github.com/sixarm/sixarm_ruby_date_stamp">https://github.com/sixarm/sixarm_ruby_date_stamp</a></li>
+<li>Doc: <a href="http://sixarm.com/sixarm_ruby_date_stamp/doc">http://sixarm.com/sixarm_ruby_date_stamp/doc</a></li>
+<li>Gem: <a href="https://rubygems.org/gems/sixarm_ruby_date_stamp">https://rubygems.org/gems/sixarm_ruby_date_stamp</a></li>
+<li>Contact: Joel Parker Henderson, <a href="mailto:joel@sixarm.com">joel@sixarm.com</a></li>
+<li>Project: <a href="CHANGES.md">changes</a>, <a href="LICENSE.md">license</a>, <a href="CONTRIBUTING.md">contributing</a>.</li>
 </ul>
+
+<!--header-shut-->
 
 <h2>Introduction</h2>
 
@@ -70,87 +83,44 @@
 
 <p>Want to help? We&#39;re happy to get pull requests.</p>
 
-<h2>Quickstart</h2>
+<!--install-open-->
 
-<p>Install:</p>
+<h2>Install</h2>
 
-<pre class="code ruby"><code><span class='id identifier rubyid_gem'>gem</span> <span class='id identifier rubyid_install'>install</span> <span class='id identifier rubyid_sixarm_ruby_date_stamp'>sixarm_ruby_date_stamp</span>
+<h3>Gem</h3>
+
+<p>Run this command in your shell or terminal:</p>
+
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_gem'>gem</span> <span class='id identifier rubyid_install'>install</span> <span class='id identifier rubyid_sixarm_ruby_date_stamp'>sixarm_ruby_date_stamp</span>
 </code></pre>
 
-<p>Bundler:</p>
+<p>Or add this to your Gemfile:</p>
 
-<pre class="code ruby"><code><span class='id identifier rubyid_gem'>gem</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>sixarm_ruby_date_stamp</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>=1.0.2</span><span class='tstring_end'>&quot;</span></span>
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_gem'>gem</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>sixarm_ruby_date_stamp</span><span class='tstring_end'>&#39;</span></span>
 </code></pre>
 
-<p>Require:</p>
+<h3>Require</h3>
 
-<pre class="code ruby"><code><span class='id identifier rubyid_require'>require</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>sixarm_ruby_date_stamp</span><span class='tstring_end'>&quot;</span></span>
+<p>To require the gem in your code:</p>
+
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_require'>require</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>sixarm_ruby_date_stamp</span><span class='tstring_end'>&#39;</span></span>
 </code></pre>
 
-<h2>High Security (Optional)</h2>
-
-<p>To enable high security for all our gems:</p>
-
-<pre class="code ruby"><code>wget http://sixarm.com/sixarm.pem
-gem cert --add sixarm.pem
-gem sources --add http://sixarm.com
-</code></pre>
-
-<p>To install with high security:</p>
-
-<pre class="code ruby"><code>gem install sixarm_ruby_date_stamp --test --trust-policy HighSecurity
-</code></pre>
+<!--install-shut-->
 
 <h2>Examples</h2>
 
-<pre class="code ruby"><code><span class='id identifier rubyid_puts'>puts</span> <span class='const'>Date</span><span class='period'>.</span><span class='id identifier rubyid_stamp'>stamp</span>  <span class='comment'>#=&gt; &quot;2010-12-31&quot;
-</span><span class='id identifier rubyid_puts'>puts</span> <span class='const'>Date</span><span class='period'>.</span><span class='id identifier rubyid_today'>today</span><span class='period'>.</span><span class='id identifier rubyid_stamp'>stamp</span>  <span class='comment'>#=&gt; &quot;2010-12-31&quot;
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_puts'>puts</span> <span class='const'><span class='object_link'><a href="Date.html" title="Date (class)">Date</a></span></span><span class='period'>.</span><span class='id identifier rubyid_stamp'><span class='object_link'><a href="Date.html#stamp-class_method" title="Date.stamp (method)">stamp</a></span></span>  <span class='comment'>#=&gt; &quot;2010-12-31&quot;
+</span><span class='id identifier rubyid_puts'>puts</span> <span class='const'><span class='object_link'><a href="Date.html" title="Date (class)">Date</a></span></span><span class='period'>.</span><span class='id identifier rubyid_today'>today</span><span class='period'>.</span><span class='id identifier rubyid_stamp'>stamp</span>  <span class='comment'>#=&gt; &quot;2010-12-31&quot;
 </span></code></pre>
-
-<h2>Changes</h2>
-
-<ul>
-<li>2012-03-16 1.0.2 Upgrade for Ruby 1.9.3, minitest/spec, and improved docs.</li>
-<li>2011-11-29 1.0.1 Bug fix.</li>
-<li>2011-11-29 1.0.0 Refactored from sixarm<em>ruby</em>ramp to this independent gem.</li>
-</ul>
-
-<h2>License</h2>
-
-<p>You may choose any of these open source licenses:</p>
-
-<ul>
-<li>Apache License</li>
-<li>BSD License</li>
-<li>CreativeCommons License, Non-commercial Share Alike</li>
-<li>GNU General Public License Version 2 (GPL 2)</li>
-<li>GNU Lesser General Public License (LGPL)</li>
-<li>MIT License</li>
-<li>Perl Artistic License</li>
-<li>Ruby License</li>
-</ul>
-
-<p>The software is provided &quot;as is&quot;, without warranty of any kind, 
-express or implied, including but not limited to the warranties of 
-merchantability, fitness for a particular purpose and noninfringement. </p>
-
-<p>In no event shall the authors or copyright holders be liable for any 
-claim, damages or other liability, whether in an action of contract, 
-tort or otherwise, arising from, out of or in connection with the 
-software or the use or other dealings in the software.</p>
-
-<p>This license is for the included software that is created by SixArm;
-some of the included software may have its own licenses, copyrights, 
-authors, etc. and these do take precedence over the SixArm license.</p>
-
-<p>Copyright (c) 2005-2013 Joel Parker Henderson</p>
 </div></div>
-    
-    <div id="footer">
-  Generated on Fri Mar 16 15:19:36 2012 by 
+
+      <div id="footer">
+  Generated on Thu Jun 21 23:18:05 2018 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
-  0.7.5 (ruby-1.9.3).
+  0.9.14 (ruby-2.5.1).
 </div>
 
+    </div>
   </body>
 </html>
