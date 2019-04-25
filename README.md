@@ -4,9 +4,9 @@
 
 [![Gem Version](https://badge.fury.io/rb/sixarm_ruby_date_stamp.svg)](http://badge.fury.io/rb/sixarm_ruby_date_stamp)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_date_stamp.png)](https://travis-ci.org/SixArm/sixarm_ruby_date_stamp)
-[![Code Climate Maintainability](https://api.codeclimate.com/v1/badges/efb60a9ecbf7e3450cd3/maintainability)](https://codeclimate.com/github/SixArm/sixarm_ruby_date_stamp/maintainability)
+[![Code Climate](https://api.codeclimate.com/v1/badges/efb60a9ecbf7e3450cd3/maintainability)](https://codeclimate.com/github/SixArm/sixarm_ruby_date_stamp/maintainability)
 
-* Git: <https://github.com/sixarm/sixarm_ruby_date_stamp>
+* Git: <https://github.com/SixArm/sixarm_ruby_date_stamp>
 * Doc: <http://sixarm.com/sixarm_ruby_date_stamp/doc>
 * Gem: <https://rubygems.org/gems/sixarm_ruby_date_stamp>
 * Contact: Joel Parker Henderson, <joel@sixarm.com>
@@ -30,11 +30,13 @@ Want to help? We're happy to get pull requests.
 
 ### Gem
 
-Run this command in your shell or terminal:
+To install this gem in your shell or terminal:
 
     gem install sixarm_ruby_date_stamp
 
-Or add this to your Gemfile:
+### Gemfile
+
+To add this gem to your Gemfile:
 
     gem 'sixarm_ruby_date_stamp'
 
