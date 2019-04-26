@@ -6,7 +6,7 @@
 <title>
   File: README
   
-    &mdash; Documentation by YARD 0.9.14
+    &mdash; Documentation by YARD 0.9.19
   
 </title>
 
@@ -57,58 +57,54 @@
         <div class="clear"></div>
       </div>
 
-      <div id="content"><div id='filecontents'><h1>SixArm.com → Ruby → <br> Date.stamp method for ISO RFC date stamp</h1>
-
+      <div id="content"><div id='filecontents'>
+<h1 id="label-SixArm.com+-E2-86-92+Ruby+-E2-86-92++Date.stamp+method+for+ISO+RFC+date+stamp">SixArm.com → Ruby → <br> Date.stamp method for ISO RFC date stamp</h1>
 <!--header-open-->
-
-<p><a href="http://badge.fury.io/rb/sixarm_ruby_date_stamp"><img src="https://badge.fury.io/rb/sixarm_ruby_date_stamp.svg" alt="Gem Version"></a>
-<a href="https://travis-ci.org/SixArm/sixarm_ruby_date_stamp"><img src="https://travis-ci.org/SixArm/sixarm_ruby_date_stamp.png" alt="Build Status"></a>
-<a href="https://codeclimate.com/github/SixArm/sixarm_ruby_date_stamp/maintainability"><img src="https://api.codeclimate.com/v1/badges/efb60a9ecbf7e3450cd3/maintainability" alt="Code Climate Maintainability"></a></p>
-
-<ul>
-<li>Git: <a href="https://github.com/sixarm/sixarm_ruby_date_stamp">https://github.com/sixarm/sixarm_ruby_date_stamp</a></li>
-<li>Doc: <a href="http://sixarm.com/sixarm_ruby_date_stamp/doc">http://sixarm.com/sixarm_ruby_date_stamp/doc</a></li>
-<li>Gem: <a href="https://rubygems.org/gems/sixarm_ruby_date_stamp">https://rubygems.org/gems/sixarm_ruby_date_stamp</a></li>
-<li>Contact: Joel Parker Henderson, <a href="mailto:joel@sixarm.com">joel@sixarm.com</a></li>
-<li>Project: <a href="CHANGES.md">changes</a>, <a href="LICENSE.md">license</a>, <a href="CONTRIBUTING.md">contributing</a>.</li>
-</ul>
-
+<p><a href="http://badge.fury.io/rb/sixarm_ruby_date_stamp"><img src="https://badge.fury.io/rb/sixarm_ruby_date_stamp.svg"></a> <a href="https://travis-ci.org/SixArm/sixarm_ruby_date_stamp"><img src="https://travis-ci.org/SixArm/sixarm_ruby_date_stamp.png"></a> <a href="https://codeclimate.com/github/SixArm/sixarm_ruby_date_stamp/maintainability"><img src="https://api.codeclimate.com/v1/badges/efb60a9ecbf7e3450cd3/maintainability"></a></p>
+<ul><li>
+<p>Git: <a href="https://github.com/SixArm/sixarm_ruby_date_stamp">github.com/SixArm/sixarm_ruby_date_stamp</a></p>
+</li><li>
+<p>Doc: <a href="http://sixarm.com/sixarm_ruby_date_stamp/doc">sixarm.com/sixarm_ruby_date_stamp/doc</a></p>
+</li><li>
+<p>Gem: <a href="https://rubygems.org/gems/sixarm_ruby_date_stamp">rubygems.org/gems/sixarm_ruby_date_stamp</a></p>
+</li><li>
+<p>Contact: Joel Parker Henderson, <a href="mailto:joel@sixarm.com">joel@sixarm.com</a></p>
+</li><li>
+<p>Project: <a href="CHANGES.md">changes</a>, <a href="LICENSE.md">license</a>, <a href="CONTRIBUTING.md">contributing</a>.</p>
+</li></ul>
 <!--header-shut-->
-
-<h2>Introduction</h2>
+<h2 id="label-Introduction">Introduction</h2>
 
 <p>Provides datestamp methods Date.stamp and Date#stamp</p>
 
-<p>For docs go to <a href="http://sixarm.com/sixarm_ruby_date_stamp/doc">http://sixarm.com/sixarm_ruby_date_stamp/doc</a></p>
+<p>For docs go to <a href="http://sixarm.com/sixarm_ruby_date_stamp/doc">sixarm.com/sixarm_ruby_date_stamp/doc</a></p>
 
 <p>Want to help? We&#39;re happy to get pull requests.</p>
-
 <!--install-open-->
+<h2 id="label-Install">Install</h2>
 
-<h2>Install</h2>
+<h3 id="label-Gem">Gem</h3>
 
-<h3>Gem</h3>
-
-<p>Run this command in your shell or terminal:</p>
+<p>To install this gem in your shell or terminal:</p>
 
 <pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_gem'>gem</span> <span class='id identifier rubyid_install'>install</span> <span class='id identifier rubyid_sixarm_ruby_date_stamp'>sixarm_ruby_date_stamp</span>
 </code></pre>
 
-<p>Or add this to your Gemfile:</p>
+<h3 id="label-Gemfile">Gemfile</h3>
+
+<p>To add this gem to your Gemfile:</p>
 
 <pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_gem'>gem</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>sixarm_ruby_date_stamp</span><span class='tstring_end'>&#39;</span></span>
 </code></pre>
 
-<h3>Require</h3>
+<h3 id="label-Require">Require</h3>
 
 <p>To require the gem in your code:</p>
 
 <pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_require'>require</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>sixarm_ruby_date_stamp</span><span class='tstring_end'>&#39;</span></span>
 </code></pre>
-
 <!--install-shut-->
-
-<h2>Examples</h2>
+<h2 id="label-Examples">Examples</h2>
 
 <pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_puts'>puts</span> <span class='const'><span class='object_link'><a href="Date.html" title="Date (class)">Date</a></span></span><span class='period'>.</span><span class='id identifier rubyid_stamp'><span class='object_link'><a href="Date.html#stamp-class_method" title="Date.stamp (method)">stamp</a></span></span>  <span class='comment'>#=&gt; &quot;2010-12-31&quot;
 </span><span class='id identifier rubyid_puts'>puts</span> <span class='const'><span class='object_link'><a href="Date.html" title="Date (class)">Date</a></span></span><span class='period'>.</span><span class='id identifier rubyid_today'>today</span><span class='period'>.</span><span class='id identifier rubyid_stamp'>stamp</span>  <span class='comment'>#=&gt; &quot;2010-12-31&quot;
@@ -116,9 +112,9 @@
 </div></div>
 
       <div id="footer">
-  Generated on Thu Jun 21 23:18:05 2018 by
+  Generated on Thu Apr 25 22:29:52 2019 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
-  0.9.14 (ruby-2.5.1).
+  0.9.19 (ruby-2.6.3).
 </div>
 
     </div>
